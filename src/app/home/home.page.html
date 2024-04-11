@@ -1,0 +1,30 @@
+<ion-content class="ion-padding">
+  <div class="center-container">
+    <ion-card class="initials-card">
+      <ion-card-content class="initials-content">
+        <ion-grid>
+          <ion-row>
+            <ion-col> <ion-icon name="bulb-outline" class="initials"></ion-icon></ion-col>
+            <ion-col><ion-button (click)="change()" [color]="state?'success':'danger'" expand="block"><ion-icon name="power-outline"></ion-icon></ion-button></ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col><ion-icon name="bonfire-outline" class="initials"></ion-icon></ion-col>
+            <ion-col><ion-button (click)="change2()" [color]="state2?'success':'danger'" expand="block"><ion-icon name="power-outline"></ion-icon></ion-button></ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col><ion-icon name="key-outline" class="initials"></ion-icon></ion-col>
+            <ion-col><ion-button (click)="change3()" [color]="state3?'success':'danger'" expand="block"><ion-icon name="power-outline"></ion-icon></ion-button></ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col><ion-icon name="battery-charging-outline" class="initials"></ion-icon></ion-col>
+            <ion-col><ion-button (click)="change4()" [color]="state4?'success':'danger'" expand="block"><ion-icon name="power-outline"></ion-icon></ion-button></ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col><ion-icon name="tv-outline" class="initials"></ion-icon></ion-col>
+            <ion-col><ion-button (click)="change5()" [color]="state5?'success':'danger'" expand="block"><ion-icon name="power-outline"></ion-icon></ion-button></ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "casa-iot-fdaf5": {
+      "hosting": {
+        "app": [
+          "casa-iot-fdaf5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "casa-iot-fdaf5"
+  }
+}
